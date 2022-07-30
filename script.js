@@ -1,5 +1,5 @@
 function displayPhrase() {
-    const clothing = ['Gentilezza', 'Comprensione','Forza','Amore per il prossimo','Accettazione','Sorriso','Tenacia','Costanza','Provaci, magari ci risci','Ambizione'];
+    const clothing = ['Gentilezza', 'Comprensione','Forza','Amore per il prossimo','Accettazione','Sorriso','Tenacia','Costanza','Provaci, magari ci riesci','Ambizione'];
    let x = getRandomInt(clothing.length)
     document.getElementById("demo").innerHTML = clothing[x];
 }
